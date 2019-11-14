@@ -43,6 +43,8 @@ elif c_choice == 1:
 elif c_choice == 2:
 	c_choice = "보"
 
+print("컴퓨터", c_choice, "사용자", p_choice)
+
 if c_choice == p_choice:
 	print("무승부 입니다.")
 elif c_choice == "가위" and p_choice == "바위":
@@ -57,3 +59,21 @@ elif c_choice == "보" and p_choice == "가위":
 	print("이겼습니다.")
 elif c_choice == "보" and p_choice == "바위":
 	print("졌습니다.")
+
+####
+#면적 계산기
+choice = int(input("도형을 선택 하시오(1:사각형, 2:삼각형, 3:원) : "))
+
+if choice == 1:
+	wide = int(input("가로 : "))
+	hight = int(input("세로 : "))
+	print("결과 : ", wide*hight)
+
+elif choice == 2:
+	wide = int(input("가로 : "))
+	hight = int(input("세로 : "))
+	print("결과 : ", wide*hight/2)
+
+elif choice == 3:
+	radius = int(input("반지름 : "))
+	print("결과 : ", radius**2*3.14)
