@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "3주차 -2 교제 문제풀이", "3주차 -2 교제 문제풀이\3주차 -2 교제 문제풀이.pyproj", "{57175B9B-E57C-47E7-B501-D939278DF590}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57175B9B-E57C-47E7-B501-D939278DF590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57175B9B-E57C-47E7-B501-D939278DF590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DC39E6F-7656-419F-816D-E4783CD62E2F}
+	EndGlobalSection
+EndGlobal
