@@ -78,3 +78,8 @@ for i in range(5):
 #파이썬 데이터 구조(리스트, 딕셔너리, 튜플, 셋,) 문자열 함수들, 스택, 큐, 파일 입출력, 객체 지향
 
 #p 160
+import random
+import string
+
+word = "".join(random.sample(string.ascii_letters + string.digits, 5))
+word
