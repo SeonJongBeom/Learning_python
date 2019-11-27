@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "과제3주차-2", "과제3주차-2\과제3주차-2.pyproj", "{25751676-E34A-4A75-8A9F-127490D350BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25751676-E34A-4A75-8A9F-127490D350BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25751676-E34A-4A75-8A9F-127490D350BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14FD593A-FD17-432B-8B77-33B8F1EE6D26}
+	EndGlobalSection
+EndGlobal

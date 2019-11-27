@@ -1,0 +1,11 @@
+홍길동 010-1234-5678
+김철수 010-1234-5679
+김영희 010-1234-5680
+All's well that ends well.
+Bad news travels fast.
+Well begun is half done.
+Birds of a feather flock together.
+홍길동,2018,생활관A,312,3.18
+김철수,2017,생활관B,102,3.25
+김영희,2018,생활관C,342,2.10
+강감찬,2019,생활관A,123,4.09
