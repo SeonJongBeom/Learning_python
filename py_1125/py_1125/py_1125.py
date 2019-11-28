@@ -41,7 +41,9 @@ class Counter:
 #메소드 : 클래스 안에 정의된 함수, 첫 번째 매개변수는 항상 self이어야함.
 
 class Television:
-	def __init(self, channel, volume, on):
+	serialnumber = 0
+	Television.serialnumber += 1
+	def __init__(self, channel, volume, on):
 		self.channel = channel
 		self.volume = volume
 		self.on = on
@@ -51,6 +53,8 @@ class Television:
 		self.channel = channel
 	def getChannel(self):
 		return self.channel
+a = Television(1, 1, True)
+print(a.channel)
 
 class Student:
 	def __init__(self, name = None, age = 0): #age에 값이 안들어 오면 0으로 해줌
@@ -70,6 +74,7 @@ obj.setName("jongbeom")
 print(obj.getName())
 obj.setAge(20)
 print(obj.getAge())
+print(obj.__name)
 
 class Vector2D :
 	def __init__(self, x, y):
@@ -127,3 +132,31 @@ print(myTruck.getPayload())
 #클래스 관계
 #is - a 상속
 #has - a 포함
+
+# 사각형을 클래스로 정의한다.
+class Rectangle:
+	def __init__(self, side=0):
+		self.side = side
+	def getArea(self):
+		return self.side*self.side
+# 사각형 객체와 반복횟수를 받아서 변을 증가시키면서 면적을 출력한다.
+def printAreas(r, n):
+	while n >= 1:
+		print(r.side, "\t", r.getArea())
+		r.side = r.side + 1
+		n = n - 1
+
+class Animal:
+	def __init__(self, name=""):
+		self.name=name
+	def eat(self):
+		print("동물이 먹고 있습니다. ")
+
+class Dog(Animal):
+	def __init__(self):
+		super().__init__()
+	def eat(self):
+		print("강아지가 먹고 있습니다. ")
+
+d = Dog();
+d.eat()
