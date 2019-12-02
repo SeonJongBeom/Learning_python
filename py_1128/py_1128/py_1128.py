@@ -88,7 +88,7 @@ class App:
 		quitB = Button(window, text = "Quit", command = self.quit)
 		quitB.pack(side = LEFT)
 		window.mainloop()
-
+		
 	def hello(self):
 		print("Hello 버튼이 클릭되었음!")
 
@@ -139,7 +139,7 @@ class App:
 
 		buttonframe = tk.Frame()
 		label = tk.Label(root, text = "Hello, World!", font = self.customFont)
-		buttonframe.pack()
+		#buttonframe.pack()
 		label.pack()
 
 		bigger = tk.Button(root, text = "폰트를 크게", command = self.BigFont)
