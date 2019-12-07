@@ -139,7 +139,7 @@ class App:
 
 		buttonframe = tk.Frame()
 		label = tk.Label(root, text = "Hello, World!", font = self.customFont)
-		#buttonframe.pack()
+		buttonframe.pack()
 		label.pack()
 
 		bigger = tk.Button(root, text = "폰트를 크게", command = self.BigFont)
@@ -276,8 +276,8 @@ window =Tk()
 choice = IntVar()
 
 Label(window, text = "가장 선호하는 프로그래밍 언어를 선택하시오", justify = LEFT, padx = 20).pack()
-Radiobutton(window, text = "Python", padx = 20, variable = choice, value = 1).pack(anchor =W)#왼쪽에 붙인다.
-Radiobutton(window, text = "C", padx = 20, variable = choice, value = 2).pack(anchor =W)#왼쪽에 붙인다.
+Radiobutton(window, text = "Python", padx = 20, variable = choice, value = 2).pack(anchor =W)#왼쪽에 붙인다.
+Radiobutton(window, text = "C", padx = 20, variable = choice, value = 1).pack(anchor =W)#왼쪽에 붙인다.
 Radiobutton(window, text = "Java", padx = 20, variable = choice, value = 3).pack(anchor =W)#왼쪽에 붙인다.
 Radiobutton(window, text = "Swift", padx = 20, variable = choice, value = 4).pack(anchor =W)#왼쪽에 붙인다.
 
@@ -299,7 +299,7 @@ window.mainloop()
 from tkinter import *
 
 window = Tk()
-lb = Listbox(window, height = 1)#heigth을개수에 맞춰줘야됨
+lb = Listbox(window, height = 4)#heigth을개수에 맞춰줘야됨
 lb.pack()
 lb.insert(END, "Python")
 lb.insert(END, "C")
